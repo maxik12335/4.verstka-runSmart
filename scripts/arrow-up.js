@@ -1,1 +1,1 @@
-const arrowUp=document.querySelector(".up");arrowUp.addEventListener("click",e=>{e.preventDefault(),document.querySelector("#promo").scrollIntoView({behavior:"smooth",block:"start"})});
+const arrowUp=document.querySelector(".up");arrowUp.addEventListener("click",e=>{e.preventDefault(),document.querySelector("#promo").scrollIntoView({behavior:"smooth",block:"start"})}),document.addEventListener("scroll",()=>{document.documentElement.clientWidth<620&&(800<document.documentElement.scrollTop?arrowUp.classList.add("up-visible"):arrowUp.classList.remove("up-visible"))});
