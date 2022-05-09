@@ -1,1 +1,0 @@
-const arrowUp=document.querySelector(".up");arrowUp.addEventListener("click",e=>{e.preventDefault(),document.querySelector("#promo").scrollIntoView({behavior:"smooth",block:"start"})});

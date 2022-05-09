@@ -1,1 +1,0 @@
-const swiper=new Swiper(".swiper-carusel",{scrollbars:!1,loop:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination"}});
