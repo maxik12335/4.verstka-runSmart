@@ -5,6 +5,22 @@
 }
 
 body,
-html {
-    font-family: 'Roboto', sans-serif;
+html,
+button {
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
 }

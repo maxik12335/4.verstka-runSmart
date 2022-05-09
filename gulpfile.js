@@ -51,7 +51,7 @@ function images() {
 // js compiler
 function bundelsJs() {
     return src('src/scripts/**/*.js')
-        // .pipe(concat('all.js')) - for one file "all.js"
+        //.pipe(concat('all.js'))  - for one file "all.js"
         .pipe(uglify())
         .pipe(dest('dist/scripts'))
         .pipe(browserSync.stream())
